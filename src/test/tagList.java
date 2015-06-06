@@ -13,6 +13,7 @@ import java.util.Iterator;
  */
 public class tagList {
 	private ArrayList<String> existingTags;
+	private HashMap<String, ArrayList<Image>> link;
 	
 	public tagList() {
 		
@@ -35,6 +36,6 @@ public class tagList {
 		Iterator tagIterator = this.existingTags.listIterator();
 
 		
-		null;
+		return null;
 	}
 }

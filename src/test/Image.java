@@ -3,6 +3,8 @@
  */
 package test;
 
+import java.util.ArrayList;
+
 /**
  * @author Owenn
  *
@@ -12,7 +14,11 @@ public class Image {
 	private ArrayList<String> keywords;
 	private String path;
 	
-	public Image() {
+	public Image(String name) {
+		
+	}
+	
+	public Image(String completeName, ArrayList<String> keywords) {
 		
 	}
 	
