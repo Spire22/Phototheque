@@ -22,7 +22,7 @@ public class Browser {
 	}
 
 	public void previous() {
-
+		this.current--;
 	}
 	
 	public boolean hasNext() {

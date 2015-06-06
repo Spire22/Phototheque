@@ -12,23 +12,19 @@ import java.util.Iterator;
  *
  */
 public class tagList {
-	private ArrayList<String> existingTags;
-	private HashMap<String, ArrayList<Image>> link;
+	private static ArrayList<String> existingTags;
+	private static HashMap<String, ArrayList<Image>> link;
 	
-	public tagList() {
-		
-	}
-	
-	public void createTag(String tag) {
-		this.existingTags.add(tag);
+	public static void createTag(String tag) {
+		existingTags.add(tag);
 	}
 	
 	public void deleteTag(String tag) {
 		this.existingTags.remove(tag);
 	}
 	
-	public boolean exists(String tag) {
-		return this.existingTags.contains(tag);
+	public static boolean exists(String tag) {
+		return existingTags.contains(tag);
 	}
 	
 	public HashMap<String, Image> getImages(String tag) {
