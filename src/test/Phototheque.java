@@ -53,7 +53,6 @@ public class Phototheque {
 	public HashMap<String, Image> orderByDate() {
 		//TODO
 		return null;
-		
 	}
 
 	//orderBy
