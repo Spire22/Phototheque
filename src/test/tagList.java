@@ -31,6 +31,7 @@ public class tagList {
 		HashMap<String, Image> ret = new HashMap<String, Image>();
 		Iterator tagIterator = this.existingTags.listIterator();
 
+		//commentaire
 		
 		return null;
 	}
